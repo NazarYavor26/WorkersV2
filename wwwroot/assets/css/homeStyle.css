@@ -1,0 +1,43 @@
+﻿/* Wrapper home*/
+.intro {
+    width: 550px;
+    font-size: 80px;
+    font-weight: 700;
+    color: black;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    text-transform: uppercase;
+}
+
+.intro p {
+    text-align: center;
+}
+
+.intro_info {
+    width: 400px;
+    margin-top: 100px;
+    text-align: center;
+    margin: 120px auto 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btn a {
+    display: block;
+    margin: 50px auto 0;
+    text-align: center;
+    width: 100px;
+    padding: 8px 30px;
+    border: 3px solid black;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background .1s linear, color .1s linear;
+    text-decoration: none;
+    color: black;
+}
+
+.btn a:hover, .btn a:active {
+    background: black;
+    color: #fce38a;
+}
